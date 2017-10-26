@@ -39,13 +39,13 @@
 		607FACE51AFB9204008FA782 /* IAPReceiptVerifier_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IAPReceiptVerifier_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		91DB6EC5781DE19EA77FDD5F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		91DB6EC5781DE19EA77FDD5F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		AD136764452ACA8069F88D1A /* Pods-IAPReceiptVerifier_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IAPReceiptVerifier_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IAPReceiptVerifier_Tests/Pods-IAPReceiptVerifier_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C566956C87E6344343A092DA /* Pods-IAPReceiptVerifier_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IAPReceiptVerifier_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-IAPReceiptVerifier_Example/Pods-IAPReceiptVerifier_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CAE09B1DF0E0FFD1D8D5505D /* Pods-IAPReceiptVerifier_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IAPReceiptVerifier_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IAPReceiptVerifier_Example/Pods-IAPReceiptVerifier_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EC5DDE52D91089D1366DBE87 /* IAPReceiptVerifier.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = IAPReceiptVerifier.podspec; path = ../IAPReceiptVerifier.podspec; sourceTree = "<group>"; };
+		EC5DDE52D91089D1366DBE87 /* IAPReceiptVerifier.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = IAPReceiptVerifier.podspec; path = ../IAPReceiptVerifier.podspec; sourceTree = "<group>"; };
 		ED37190E63108D0F2FA16264 /* Pods-IAPReceiptVerifier_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IAPReceiptVerifier_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IAPReceiptVerifier_Tests/Pods-IAPReceiptVerifier_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F639D2C871A38358F22C45E0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F639D2C871A38358F22C45E0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FF9DEAAAF585F67B25E60052 /* Pods_IAPReceiptVerifier_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IAPReceiptVerifier_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -458,7 +458,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -504,7 +504,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

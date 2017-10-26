@@ -1,0 +1,6 @@
+framework module Pods_IAPReceiptVerifier_Tests {
+  umbrella header "Pods-IAPReceiptVerifier_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
