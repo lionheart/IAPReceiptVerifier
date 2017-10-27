@@ -1,42 +1,23 @@
-#
-# Be sure to run `pod lib lint IAPReceiptVerifier.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'IAPReceiptVerifier'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of IAPReceiptVerifier.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = 'Easily validate App Store receipts for In-App Purchases'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+IAPReceiptVerifier uses StoreKit and a web service to make it easy to check for valid In-App Purchase receipts.
                        DESC
 
   s.homepage         = 'https://github.com/dlo/IAPReceiptVerifier'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'dlo' => 'dan@lionheartsw.com' }
+  s.license          = 'Apache 2.0'
+  s.author           = { 'Dan Loewenherz' => 'dan@lionheartsw.com' }
   s.source           = { :git => 'https://github.com/dlo/IAPReceiptVerifier.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/lionheartsw'
+
+  s.pod_target_xcconfig = {
+    'SWIFT_VERSION' => '4.0'
+  }
 
   s.ios.deployment_target = '10.0'
-
   s.source_files = 'IAPReceiptVerifier/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'IAPReceiptVerifier' => ['IAPReceiptVerifier/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit', 'StoreKit'
 end
