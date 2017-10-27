@@ -10,7 +10,7 @@ IAPReceiptVerifier uses StoreKit and a web service to make it easy to check for 
   s.homepage         = 'https://github.com/dlo/IAPReceiptVerifier'
   s.license          = 'Apache 2.0'
   s.author           = { 'Dan Loewenherz' => 'dan@lionheartsw.com' }
-  s.source           = { :git => 'https://github.com/dlo/IAPReceiptVerifier.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/lionheart/IAPReceiptVerifier.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/lionheartsw'
 
   s.pod_target_xcconfig = {
