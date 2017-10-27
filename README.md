@@ -6,8 +6,8 @@ See https://github.com/lionheart/in_app_purchase_receipt_verifier for more infor
 [![Version](https://img.shields.io/cocoapods/v/IAPReceiptVerifier.svg?style=flat)](http://cocoapods.org/pods/IAPReceiptVerifier)
 [![License](https://img.shields.io/cocoapods/l/IAPReceiptVerifier.svg?style=flat)](http://cocoapods.org/pods/IAPReceiptVerifier)
 [![Platform](https://img.shields.io/cocoapods/p/IAPReceiptVerifier.svg?style=flat)](http://cocoapods.org/pods/IAPReceiptVerifier)
-[![CocoaPods](https://img.shields.io/cocoapods/dt/IAPReceiptVerifier.svg?style=flat)](https://cocoapods.org/pods/LionheartExtensions)
-[![CocoaPods](https://img.shields.io/cocoapods/dm/IAPReceiptVerifier.svg?style=flat)](https://cocoapods.org/pods/LionheartExtensions)
+[![CocoaPods](https://img.shields.io/cocoapods/dt/IAPReceiptVerifier.svg?style=flat)](https://cocoapods.org/pods/IAPReceiptVerifier)
+[![CocoaPods](https://img.shields.io/cocoapods/dm/IAPReceiptVerifier.svg?style=flat)](https://cocoapods.org/pods/IAPReceiptVerifier)
 
 ## Example
 
