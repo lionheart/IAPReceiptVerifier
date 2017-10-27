@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
 IAPReceiptVerifier uses StoreKit and a web service to make it easy to check for valid In-App Purchase receipts.
                        DESC
 
-  s.homepage         = 'https://github.com/dlo/IAPReceiptVerifier'
+  s.homepage         = 'https://github.com/lionheart/IAPReceiptVerifier'
   s.license          = 'Apache 2.0'
   s.author           = { 'Dan Loewenherz' => 'dan@lionheartsw.com' }
   s.source           = { :git => 'https://github.com/lionheart/IAPReceiptVerifier.git', :tag => s.version.to_s }
