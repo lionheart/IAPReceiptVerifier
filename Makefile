@@ -12,6 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Usage: make VERSION=0.1.2
+
 PODFILE := $(shell find . -name "*.podspec" -depth 1)
 
 all: publish
