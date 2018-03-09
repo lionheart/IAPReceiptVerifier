@@ -25,7 +25,7 @@ tag: quicklint
 	# - ignores errors in this command
 	-git commit -m "bump version to $(VERSION)"
 	# Delete tag if already exists
-	git tag -d $(VERSION)
+	-git tag -d $(VERSION)
 	-git push origin master :$(VERSION)
 	git tag $(VERSION)
 	git push origin master
