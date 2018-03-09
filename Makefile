@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PODFILE := IAPReceiptVerifier.podspec
+PODFILE := $(shell find . -name "*.podspec" -depth 1)
 
 all: publish
 
