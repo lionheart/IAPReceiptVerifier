@@ -16,10 +16,16 @@ PODFILE := $(shell find . -name "*.podspec" -depth 1)
 
 all: publish
 
+version_provided:
+	test -n "$(VERSION)"
+
+podspec_found:
+	test -n "$(PODFILE)"
+
 quicklint:
 	bundle exec pod spec lint --quick
 
-tag: quicklint
+tag: podspec_found version_provided quicklint
 	sed -i "" "s/\(s.version[ ]*=[ ]\).*/\1 \"$(VERSION)\"/g" $(PODFILE)
 	git add .
 	# - ignores errors in this command
