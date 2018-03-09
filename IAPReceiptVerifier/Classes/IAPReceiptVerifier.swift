@@ -91,7 +91,7 @@ public struct IAPReceiptVerifier {
 
             if let key = self.key {
                 guard let signatureString = HTTPResponse.allHeaderFields["X-Signature"] as? String,
-                    let signature = Data.init(base64Encoded: signatureString),
+                    let signature = Data(base64Encoded: signatureString),
                     SecKeyVerifySignature(key, algorithm, data as CFData, signature as CFData, &error) else {
                         completion(nil)
                         return
