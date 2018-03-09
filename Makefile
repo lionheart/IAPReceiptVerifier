@@ -14,7 +14,7 @@
 
 PODFILE := IAPReceiptVerifier.podspec
 
-all: quicklint test publish
+all: publish
 
 quicklint:
 	bundle exec pod spec lint --quick
