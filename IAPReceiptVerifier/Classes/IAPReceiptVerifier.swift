@@ -68,6 +68,7 @@ public struct IAPReceiptVerifier {
     public func verify(completion: @escaping (Receipt?) -> ()) {
         guard let receiptURL = Bundle.main.appStoreReceiptURL,
             let receiptData = try? Data(contentsOf: receiptURL) else {
+                completion(nil)
                 return
         }
 
